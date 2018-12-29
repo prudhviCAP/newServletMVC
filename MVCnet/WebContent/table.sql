@@ -1,0 +1,1 @@
+create table user_details(slno int unsigned not null auto_increment,primary key(slno),fullname varchar2(30) not null,email varchar2(30) not null,username varchar2(30) not null,password varchar2(30) not null,unique key(username));
